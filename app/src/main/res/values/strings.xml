@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Masluck-v-24</string>
+    <string name="q">МЕССЕНДЖЕР</string>
+    <string name="w">Пароль</string>
+    <string name="e">/</string>
+    <string name="r">TODO</string>
+    <string name="y">4</string>
+    <string name="u">0</string>
+    <string name="i">1</string>
+    <string name="o">2</string>
+    <string name="p">5</string>
+    <string name="a">6</string>
+    <string name="s">3</string>
+    <string name="d">9</string>
+    <string name="f">8</string>
+    <string name="g">7</string>
+    <string name="h">TODO</string>
+    <string name="z">МОИ СООБЩЕНИЯ</string>
+    <string name="x">Привет! Как дела? Дав...</string>
+    <string name="c">Слушай, Саш, ты не мог б...</string>
+    <string name="v">Ой, у меня всё отлично! Ты...</string>
+    <string name="b">Тогда договорили...</string>
+    <string name="n">TODO</string>
+    <string name="m">TODO</string>
+    <string name="qw">TODO</string>
+    <string name="we">TODO</string>
+    <string name="er">TODO</string>
+    <string name="rt">TODO</string>
+    <string name="fh">Переход на сайт</string>
+</resources>

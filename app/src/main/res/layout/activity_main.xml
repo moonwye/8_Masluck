@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9FBFF"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@drawable/vector123"
+        android:contentDescription="@string/r" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="618dp"
+        android:text="@string/q"
+        android:textColor="#2F8189"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="256dp"
+        android:backgroundTint="#3B939B"
+        android:text="@string/w"
+        android:textColor=" #FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
+    <TableLayout
+        android:layout_width="249dp"
+        android:layout_height="332dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="68dp"
+        android:background=" #3B939B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.417">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:text="@string/i"
+                android:textColor="#FFFFFF"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/button3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:text="@string/o"
+                android:textColor="#FFFFFF"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/button4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:text="@string/s"
+                android:textColor="#FFFFFF"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:text="@string/y"
+                android:textColor="#FFFFFF"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/button6"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:text="@string/p"
+                android:textColor="#FFFFFF"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/button7"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:text="@string/a"
+                android:textColor="#FFFFFF"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button8"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:text="@string/g"
+                android:textColor="#FFFFFF"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/button9"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:text="@string/f"
+                android:textColor="#FFFFFF"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/button10"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:text="@string/d"
+                android:textColor="#FFFFFF"
+                tools:ignore="TextContrastCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:text="@string/e"
+                android:textColor="#FFFFFF"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:text="@string/u"
+                android:textColor="#FFFFFF"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:backgroundTint="#3B939B"
+                android:contentDescription="@string/h"
+                app:srcCompat="@drawable/group"
+                tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
